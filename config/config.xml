@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rule>
+    <question no="1">
+        <desc>The distance of the route A-B-C.</desc>
+        <classname>Distance</classname>
+        <parameter>A-B-c</parameter>
+    </question>
+    <question no="2">
+        <desc>The distance of the route A-D.</desc>
+        <classname>Distance</classname>
+        <parameter>A-D</parameter>
+    </question>
+    <question no="3">
+        <desc>The distance of the route A-D-C.</desc>
+        <classname>Distance</classname>
+        <parameter>A-D-C</parameter>
+    </question>
+    <question no="4">
+        <desc>The distance of the route A-E-B-C-D.</desc>
+        <classname>Distance</classname>
+        <parameter>A-E-B-C-D</parameter>
+    </question>
+    <question no="5">
+        <desc>The distance of the route A-E-D.</desc>
+        <classname>Distance</classname>
+        <parameter>A-E-D</parameter>
+    </question>
+    <question no="6">
+        <desc>The number of trips starting at C and ending at C with a maximum of 3 stops.</desc>
+        <classname>Stops</classname>
+        <value type="maximum">3</value>
+        <parameter>C-C</parameter>
+    </question>
+    <question no="7">
+        <desc>The number of trips starting at A and ending at C with exactly 4 stops. </desc>
+        <classname>Stops</classname>
+        <value type="exactly">4</value>
+        <parameter>A-C</parameter>
+    </question>
+    <question no="8">
+        <desc>The length of the shortest route (in terms of distance to travel) from A to C.</desc>
+        <classname>Shortest</classname>
+        <parameter>A-C</parameter>
+    </question>
+    <question no="9">
+        <desc>The length of the shortest route (in terms of distance to travel) from B to B.</desc>
+        <classname>Shortest</classname>
+        <parameter>B-B</parameter>
+    </question>
+    <question no="10">
+        <desc>The number of different routes from C to C with a distance of less than 30. </desc>
+        <classname>Length</classname>
+        <value type="lessThan">30</value>
+        <parameter>C-C</parameter>
+    </question>
+</rule>
